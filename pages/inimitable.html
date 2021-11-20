@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/inimitable.css" />
+    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+    <link rel="icon" href="./images/" />
+    <!-- esto es para el ICONO del TAB del navegador-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header header1">
+      <h1 class="header__title">
+        <a href="../index.html" class="header__link"
+          ><span class="header__disappear">EDWARD </span
+          ><span class="header__hopper">HOPPER</span></a
+        >
+      </h1>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="../pages/iconico.html" class="nav__link">ICÓNICO</a>
+          </li>
+          <li class="nav__item">
+            <a href="../pages/influyente.html" class="nav__link">INFLUYENTE</a>
+          </li>
+          <li class="nav__item">
+            <a href="../pages/inimitable.html" class="nav__link">INIMITABLE</a>
+          </li>
+          <li class="nav__item">
+            <a href="../pages/inabarcable.html" class="nav__link"
+              >INABARCABLE</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- empieza el MAIN ----------------------- -->
+      <section class="cont">
+        <article class="arti acad">
+          <p class="arti__text">
+            Nosotros pensamos que la mirada de Edward Hopper es inimitable, pero
+            si te atreves puedes apuntarte a nuestra a academia y demostrar que
+            estamos equivocados.
+          </p>
+          <!-- formulario de inscripción -->
+          <form
+            action=""
+            method="POST"
+            enctype="multipart/form-data"
+            class="arti__form"
+          >
+            <fieldset>
+              <legend>¡Inscribete ya!:&nbsp;</legend>
+              <p>
+                <input
+                  type="text"
+                  required
+                  placeholder="Indica tu nombre"
+                  name="nick"
+                  autofocus
+                />
+              </p>
+              <p>
+                <input
+                  type="tel"
+                  required
+                  placeholder="Teléfono de contacto"
+                  name="nick"
+                  autofocus
+                />
+              </p>
+              <p>
+                Indica tu fecha de nacimiento: <br />
+                <input type="date" required name="birthday" />
+              </p>
+              <p>
+                <input
+                  type="email"
+                  required
+                  placeholder="Correo electrónico"
+                  name="email"
+                />
+              </p>
+              <p>
+                <label for="dias"
+                  >Selecciona los días que tendrías disponibles:</label
+                >
+                <br />
+                <select id="dias" name="dias" size="6" required multiple>
+                  <option value="lun">Lunes</option>
+                  <option value="mar">Martes</option>
+                  <option value="mier">Miércoles</option>
+                  <option value="juev">Jueves</option>
+                  <option value="vier">Viernes</option>
+                  <option value="sab">Sábado</option>
+                </select>
+              </p>
+              <p>
+                <label for="dias"
+                  >Selecciona el número aproximado de horas
+                  semanales:&nbsp;</label
+                >
+              </p>
+              <p>0 &nbsp;<input type="range" min="1" max="10" />&nbsp;10</p>
+              <p>Modalidad:&nbsp;&nbsp;</p>
+              <p>
+                <input
+                  type="radio"
+                  name="Modalidad"
+                  value="presencial"
+                  checked
+                />
+                Presencial
+                <input type="radio" name="Modalidad" value="online" /> Online
+              </p>
+
+              <p>
+                <input type="submit" value="¡Apuntate!" />
+              </p>
+            </fieldset>
+          </form>
+          <p class="arti__text">
+            Si vas a optar por la modalidad presencial, algo que te recomendamos energicamente, podrás encontrarnos aquí:
+          </p>
+          <!-- iframe con el mapa de google -->
+          <div class="arti__iframe">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1898.8449888130544!2d-4.821217217628274!3d39.96215417693324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd401c07fcabe441%3A0xbddd317b83ebc176!2sEtrazo!5e0!3m2!1ses!2ses!4v1637414163806!5m2!1ses!2ses"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </article>
+
+        <article class="arti didacta">
+          <p class="arti__text">¡O puedes intentarlo por tu cuenta!</p>
+          <!-- iframe con el video de youtube -->
+          <div class="arti__iframe">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/b7VD-i_onDM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="footdiv">
+        <div class="footdiv__social">
+          <img
+            class="footdiv__sociallogo"
+            src="../assets/images/social/twitter.png"
+            alt="tuiter"
+            class="socilogofoot"
+          /><br />
+          <img
+            class="footdiv__sociallogo"
+            src="../assets/images/social/instagram.png"
+            alt=""
+            class="socilogofoot"
+          /><br />
+          <img
+            class="footdiv__sociallogo"
+            src="../assets/images/social/facebook.png"
+            alt=""
+            class="socilogofoot"
+          /><br />
+        </div>
+      </div>
+      <div class="footdiv">
+        <p class="footdiv__header">Hablemos</p>
+        <ul class="footdiv__list">
+          <li class="footdiv__item">
+            <a class="footdiv_link" href="">¿Quienes somos?</a>
+          </li>
+          <li class="footdiv__item">
+            <a class="footdiv_link" href="">Contacto</a>
+          </li>
+          <li class="footdiv__item">
+            <a
+              class="footdiv_link"
+              href="mailto:amandohopper@gmail.com?Subject=Sugerencia"
+              >Buzón de sugerencias</a
+            >
+          </li>
+          <li class="footdiv__item">
+            <a class="footdiv_link" href="">Haz una donación</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footdiv">
+        <p class="footdiv__header">Contenido</p>
+        <ul class="footdiv__list">
+          <li class="footdiv__item">
+            <a class="footdiv_link" href="./pages/inabarcable.html">Obras</a>
+          </li>
+          <li class="footdiv__item">
+            <a class="footdiv_link" href="./pages/inimitable.html"
+              >¿Quieres pintar como Hopper?</a
+            >
+          </li>
+          <li class="footdiv__item">
+            <a class="footdiv_link" href="./pages/influyente.html"
+              >Influencias</a
+            >
+          </li>
+          <li class="footdiv__item">
+            <a class="footdiv_link" href="./index.html">Inicio</a>
+          </li>
+        </ul>
+      </div>
+      <hr class="barrasubfoot" />
+      <div class="copyright">
+        <p>©2021 EDWARD HOPPER , ALL RIGHTS RESERVED.</p>
+        <p>JAVICAST X RIBERA DEL TAJO</p>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

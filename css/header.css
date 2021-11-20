@@ -1,0 +1,90 @@
+/* aquí van estilos aplican más allá del Header y en todas las páginas */
+body {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+p, a, h1, h2, h3{
+    font-family: 'Lora', 'Times New Roman', Times, serif;
+}
+
+@font-face{
+    font-family:'Lora';
+    font-style:normal;
+    /* font-weight:400; */
+    src: url(../assets/fonts/Lora/Lora-VariableFont_wght.ttf);
+   }
+
+@font-face {
+    font-family: 'Hopper';
+    src: url(../assets/fonts/Spinnaker/Spinnaker-Regular.ttf);
+}
+
+   /* estilos del HEADER !!! */
+
+.header{
+    
+    text-align: center;
+    background-color: #fff2c3;
+    width: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    box-shadow: 5px 3px 30px 1px rgba(0, 0, 0, 0.918);
+    z-index: 111;
+}
+.header__title{
+    color: #0D1B9E;
+    margin:0;
+    /* text-shadow: 5px 8px 5px rgb(1, 1, 12); */
+    
+}
+.header__title a{
+    color: #0D1B9E;
+    font-family: 'Hopper';
+    font-weight: 700;
+}
+/* esto eran unas pruebas para animar el titulo de la cabecera */
+/* .header__disappear{
+    transition: all 3s;
+}
+
+.header:hover .header__disappear{
+    opacity: 0;
+}
+.header__hopper{
+
+    transition: font-size 3s; 
+    transition: right 3s;
+}
+.header:hover .header__hopper{
+    position: relative;
+    font-size: 60px;
+    right: 40px;
+} */
+.header__nav{
+    margin: 0;
+    padding-top: 1%;
+}
+.nav__list{
+    width: 100%;
+    margin: 0;
+    padding-left: 0;
+}
+.nav__item{
+    /* border: 1px solid red; */
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    font-weight: bold;
+}
+.nav__link{
+    font-family: 'Hopper', "Helvetica Neue", Helvetica, sans-serif;
+    padding: 7px;
+}
+.nav__link:hover{
+    /* text-decoration: underline; */
+    border: 2px solid rgb(143, 48, 48);
+    box-shadow: 3px 3px 7px 1px rgb(97, 56, 56);
+}

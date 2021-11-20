@@ -1,0 +1,58 @@
+body{
+    background-image: url(../assets/images/img-noise-361x370v2.png);
+}
+main{
+    /* padding-top: 150px; */
+}
+section{
+    width: 90%;
+    margin: auto;
+}
+.genero__title{
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+.genero__title h2{
+    font-family: 'Hopper', "Helvetica Neue", Helvetica, sans-serif;
+    width: 33%;
+    margin: auto;
+    font-size: 2.5em;
+}
+.arti{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+    /* overflow: hidden; */
+}
+.arti__cont{
+    width: fit-content;
+    margin: auto;
+    padding: 35px 80px;
+    background-color: rgb(50, 92, 68);
+    box-shadow: 5px 5px 5px rgb(38, 51, 65);
+
+}
+arti__img{
+    width: available;
+    max-width: 300px;
+    margin: auto;
+}
+.lista_cuadros{
+    width: 30%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.cuadros{
+    color: white;
+    background-color: rgb(50, 92, 68, 0.6);
+    margin-left: 40px;
+}
+td {
+    padding: 15px;
+}
+th {
+    text-align: center;
+    font-weight: bold;
+}
